@@ -11,6 +11,9 @@
     if(isset($_POST['btn_calcular'])) {
         echo "<br>";
         echo $operacion->promedio(); 
+    }else {
+        echo "<br>";
+        echo "Error, intentenuevamente";
     }
 
 ?>
